@@ -2,20 +2,11 @@
   margin: 0;
   padding: 0;
 }
-.iconfont {
-  padding: 15px;
-  font-size: 25px !important;
-  background-color: #d8dcdf;
-  border-radius: 50%;
-}
 .timefont {
   padding: 5px !important;
   font-size: 15px !important;
   background: none !important;
   border: none !important;
-}
-.floatRight {
-  float: right !important;
 }
 .page-top {
   width: 100%;
@@ -26,7 +17,6 @@
   z-index: 1;
   width: 100%;
   height: 100%;
-  background-color: aqua;
 }
 .container-fluid {
   margin: 0;
@@ -61,6 +51,166 @@
   content: '*';
   font-family: sans-serif;
   color: deeppink;
+}
+.lgnav {
+  width: 100%;
+}
+.lglogo {
+  float: left;
+}
+.mylgnav {
+  padding: 10px;
+  float: right;
+}
+.mynavitem {
+  padding: 5px;
+  border-radius: 3px;
+  color: #dfdfdf;
+  cursor: pointer;
+}
+.mynavitem:hover {
+  background-color: #dfdfdf;
+  color: rgba(39, 39, 39, 0.829);
+}
+.mydropmenuOne {
+  display: none;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 400px;
+  background-color: #dfdfdf;
+}
+.mydropcard {
+  width: 285px;
+  height: 400px;
+  background-color: #dfdfdf !important;
+}
+.mydropcard:hover {
+  background-color: #d1d1d1 !important;
+}
+.mydropcard h5 {
+  font-size: 16px;
+}
+.mydropcard h6 {
+  font-size: 14px;
+  color: gray !important;
+}
+.mydropcard p {
+  font-family: "等线 (西文正文)";
+  font-size: 12px;
+  color: gray !important;
+}
+.mydropcard img {
+  border: 5px solid #bdbdbdd0 !important;
+  box-shadow: none !important;
+}
+.dropmenuTwo {
+  display: none;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 410px;
+  background-color: #dfdfdf;
+}
+.something {
+  display: flex;
+  justify-content: space-between;
+  font-family: "等线 (西文正文)";
+}
+.thing {
+  position: relative;
+  left: 50px;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  height: 410px;
+}
+.thing:hover {
+  background-color: #d1d1d1;
+}
+.thing a {
+  font-family: "Century Gothic";
+  margin-bottom: 5px;
+  margin-top: 3px;
+  text-decoration: none;
+  font-size: 13px;
+  color: rgba(82, 82, 82, 0.897);
+}
+.mytheme {
+  font-family: "Comic Sans MS" !important;
+  font-size: 20px !important;
+  color: rgb(77, 76, 76) !important;
+}
+.thingline {
+  width: 170px;
+  height: 1px;
+  background-color: rgba(177, 177, 177, 0.849);
+}
+.imgline {
+  float: left;
+  height: 410px;
+  width: 1px;
+  background-color: rgba(0, 0, 0, 0.705);
+}
+.imgthing img{
+  position: relative;
+  z-index: 1;
+  padding-top: 100px;
+  padding-bottom: 110px;
+  background-color: #c9c9c9;
+}
+.dropmenuThree {
+  display: none;
+  position: absolute;
+  right: 25px;
+  height: 410px;
+  width: 325px;
+  background-color: #dfdfdf;
+  cursor: default;
+}
+.formcontent {
+  padding: 5px;
+  margin-top: 20px;
+}
+.form-control {
+  background-color: #cacacabe;
+}
+.mysubbtn {
+  width: 100%;
+  text-align: center;
+  background-color: deeppink;
+  border: none;
+}
+.formline {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  width: 100%;
+  height: 1px;
+  background-color: #cacacabe;
+}
+.formdowncontact {
+  padding-top: 10px;
+  width: 100%;
+  height: 55px;
+  text-align: center;
+}
+.myformfont {
+  margin: 0 !important;
+  padding: 10px !important;
+  font-size: 20px !important;
+  border-radius: 50%;
+  background-color: #cacacabe !important;
+  color: rgba(39, 39, 39, 0.829) !important;
+  cursor: pointer;
+}
+.dropbg {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  top: 85px;
+  width: 100%;
+  height: 410px;
+  background-color: #dfdfdf;
 }
 .content {
   position: relative;
@@ -129,17 +279,24 @@
   z-index: 0;
 }
 .myup {
+  padding: 20px !important;
+  font-size: 17px !important;
+  background-color:#d8dcdf;
+  border-radius: 50%;
   position: relative;
-  top: -5px;
-  font-size: 20px !important;
+  top: -6px;
 }
 .myConnect {
   width: 100%;
   margin-top: 60px;
 }
 .myconfont {
-  color: #76828d;
-  cursor: pointer;
+  color: #76828d !important;
+  cursor: pointer !important;
+  background-color: #d8dcdf;
+  padding: 17px !important;
+  font-size: 25px !important;
+  border-radius: 50%;
 }
 .heartfont {
   font-size: 10px !important;
@@ -148,10 +305,4 @@
   color: red;
   margin: 0;
   padding: 1px;
-}
-.myConnect i:nth-child(1):hover {
-  font-size: 30px !important;
-  background-color: #00508d;
-  border-radius: 50%;
-  color: white;
 }
