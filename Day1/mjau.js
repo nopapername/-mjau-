@@ -88,4 +88,40 @@ $(document).ready(function () {
     $(".fgooglefont").hide();
     $(".fpinfont").hide();
   })
+  $(".img-one").mouseenter(function () {
+    $(".flower-one").fadeIn(100);
+  })
+  $(".img-one").mouseleave(function () {
+    $(".flower-one").fadeOut(100);
+  })
+  $(".img-two").mouseenter(function () {
+    $(".flower-two").fadeIn(100);
+  })
+  $(".img-two").mouseleave(function () {
+    $(".flower-two").fadeOut(100);
+  })
+  $(".img-three").mouseenter(function () {
+    $(".flower-three").fadeIn(100);
+  })
+  $(".img-three").mouseleave(function () {
+    $(".flower-three").fadeOut(100);
+  })
+  $(".img-four").mouseenter(function () {
+    $(".flower-four").fadeIn(100);
+  })
+  $(".img-four").mouseleave(function () {
+    $(".flower-four").fadeOut(100);
+  })
+  $(".img-five").mouseenter(function () {
+    $(".flower-five").fadeIn(100);
+  })
+  $(".img-five").mouseleave(function () {
+    $(".flower-five").fadeOut(100);
+  })
+  $(".img-six").mouseenter(function () {
+    $(".flower-six").fadeIn(100);
+  })
+  $(".img-six").mouseleave(function () {
+    $(".flower-six").fadeOut(100);
+  })
 })

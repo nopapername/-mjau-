@@ -218,6 +218,22 @@
   background-color: #f3f4f5;
   margin-bottom: 245px;
 }
+.flower {
+  display: none;
+  position: absolute;
+  left: 43%;
+  top: 35%;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: deeppink;
+}
+.flower span {
+  color: white;
+  position: relative;
+  top: -7px;
+  font-size: 60px;
+}
 .theme {
   padding: 50px;
 }
