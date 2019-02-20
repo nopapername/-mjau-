@@ -49,25 +49,43 @@ $(document).ready(function () {
     }
   });
   $("#blog").mouseenter(function () {
-    $("#mydropmenu").show()
-    $("#dropbg").show()
+    $("#dropbg").fadeToggle()
+    $("#mydropmenu").fadeToggle()
   })
   $("#blog").mouseleave(function () {
-    $("#mydropmenu").hide()
     $("#dropbg").hide()
+    $("#mydropmenu").hide()
   })
   $("#concepts").mouseenter(function () {
-    $("#dropmenuTwo").show()
-    $("#dropbg").show()
+    $("#dropbg").fadeToggle()
+    $("#dropmenuTwo").fadeToggle()
   })
   $("#concepts").mouseleave(function () {
-    $("#dropmenuTwo").hide()
     $("#dropbg").hide()
+    $("#dropmenuTwo").hide()
   })
   $("#contact").mouseenter(function () {
-    $("#dropmenuThree").show()
+    $("#dropmenuThree").fadeToggle()
   })
   $("#contact").mouseleave(function () {
-    $("#dropmenuThree").hide()
+    $("#dropmenuThree").fadeToggle("slow")
+  })
+  $("#slidea").click(function () {
+    $("html, body").animate({
+      scrollTop: $($(this).attr("href")).offset().top - 20 + "px"
+    }, 500);
+    return false;
+  });
+  $(".myleft").mouseenter(function () {
+    $(".ffacefont").show();
+    $(".ftweetfont").show();
+    $(".fgooglefont").show();
+    $(".fpinfont").show();
+  })
+  $(".myleft").mouseleave(function () {
+    $(".ffacefont").hide();
+    $(".ftweetfont").hide();
+    $(".fgooglefont").hide();
+    $(".fpinfont").hide();
   })
 })
